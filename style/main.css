@@ -3,14 +3,17 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #9cc2d2;
-  color: #354b59;
+  background: #EC8274;
+  color: white;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-family: "Whitney SSm A","Whitney SSm B","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 18px; }
 
 body {
-  margin: 80px 0; }
+  margin: 80px 0;
+  /*background: url('../tile-sets/jackieStefanie/v_background.jpg');*/
+
+  }
 
 p.learn {
   margin-top: 20px;
@@ -97,7 +100,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #0c92bf;
+  background: #752323;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -211,6 +214,9 @@ hr {
   -ms-touch-action: none;
   touch-action: none;
   background: #1e6477;
+  background: url('../tile-sets/jackieStefanie/v_background.jpg');
+  background-size: 140%;
+  background-repeat: no-repeat;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -402,48 +408,70 @@ hr {
     font-weight: bold;
     z-index: 10;
     font-family: 'Source Code Pro', Courier;
-    font-size: 16px; 
+    font-size: 16px;
     color: #354b59;}
   .tile.tile-2 .tile-inner {
-    background: url('../tile-sets/udacity/2.png');
-    background-size: 100%;
+    background: url('../tile-sets/jackieStefanie/2.jpg');
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: 15px 4px;
+    background-size: 70%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: url('../tile-sets/udacity/4.png');
+    background: url('../tile-sets/jackieStefanie/tooCoolForSchool.png');
+    background-color: #FBEFE3;
+    background-repeat-y: no-repeat;
+    background-position: 0 25px;
     background-size: 100%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    background: url('../tile-sets/udacity/8.png');
+    background: url('../tile-sets/jackieStefanie/airplane.png');
+    background-color: #FBEFE3;
+    background-repeat-y: no-repeat;
+    background-position: 0 25px;
     background-size: 100%;
     color: rgba(0,0,0,0);
     font-weight: medium;
     font-size: 11px;
   }
   .tile.tile-16 .tile-inner {
-    background: url('../tile-sets/udacity/16.png');
+    background: url('../tile-sets/jackieStefanie/houston.jpg');
+    background-color: #669099;
+    background-repeat-y: no-repeat;
+    background-position: 0 22px;
     background-size: 100%;
     color: rgba(0,0,0,0);
     font-weight: medium;
     font-size: 10px;
   }
   .tile.tile-32 .tile-inner {
-    background: url('../tile-sets/udacity/32.png');
+    background: url('../tile-sets/jackieStefanie/thai.gif');
+    background-color: #FBEFE3;
+    background-repeat-y: no-repeat;
+    background-position: 0 25px;
     background-size: 100%;
     color: rgba(0,0,0,0);
     font-size: 14px;
   }
   .tile.tile-64 .tile-inner {
-    background: url('../tile-sets/udacity/64.png');
+
+
+    background: url('../tile-sets/jackieStefanie/vegassnowBoarding.png');
+    background-color: #FBEFE3;
+    background-repeat-y: no-repeat;
+    background-position: 0 0px;
     background-size: 100%;
     color: rgba(0,0,0,0);
     font-size: 14px;
 
   }
   .tile.tile-128 .tile-inner {
-    font-weight: medium;
-    background: url('../tile-sets/udacity/128.png');
+    background: url('../tile-sets/jackieStefanie/holdhand.jpg');
+    background-color: #FDFEFE;
+    background-repeat-y: no-repeat;
+    background-position: 0 12px;
     background-size: 100%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
@@ -452,7 +480,10 @@ hr {
       .tile.tile-128 .tile-inner {
         font-size: 12px; } }
   .tile.tile-256 .tile-inner {
-    background: url('../tile-sets/udacity/256.png');
+    background: url('../tile-sets/jackieStefanie/anniversary.jpg');
+    background-color: #000000;
+    background-repeat-y: no-repeat;
+    background-position: 0 13px;
     background-size: 100%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
@@ -461,7 +492,10 @@ hr {
       .tile.tile-256 .tile-inner {
         font-size: 16px; } }
   .tile.tile-512 .tile-inner {
-    background: url('../tile-sets/udacity/512.png');
+    background: url('../tile-sets/jackieStefanie/birthday.gif');
+    background-color: #FBEFE3;
+    background-repeat-y: no-repeat;
+    background-position: 0;
     background-size: 100%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
@@ -470,7 +504,10 @@ hr {
       .tile.tile-512 .tile-inner {
         font-size: 13px; } }
   .tile.tile-1024 .tile-inner {
-    background: url('../tile-sets/udacity/1024.png');
+    background: url('../tile-sets/jackieStefanie/grad.jpeg');
+    background-color: #FFFFFF;
+    background-repeat-y: no-repeat;
+    background-position: 0 46px;
     background-size: 100%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
@@ -479,7 +516,10 @@ hr {
       .tile.tile-1024 .tile-inner {
         font-size: 10px; } }
   .tile.tile-2048 .tile-inner {
-    background: url('../tile-sets/udacity/2048.png');
+    background: url('../tile-sets/jackieStefanie/foreverLove.jpg');
+    background-color: #FBEFE3;
+    background-repeat-y: no-repeat;
+    background-position: 0 25px;
     background-size: 100%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
@@ -669,6 +709,9 @@ hr {
     -ms-touch-action: none;
     touch-action: none;
     background: #1e6477;
+    background: url('../tile-sets/jackieStefanie/v_background.jpg');
+    background-size: 140%;
+    background-repeat: no-repeat;
     border-radius: 6px;
     width: 280px;
     height: 280px;
@@ -982,7 +1025,7 @@ a.learn:hover, a.keep-playing-button:hover, a.learn-low:hover {
 }
 .restart-button, a.retry-button {
   display: inline-block;
-  background: #1e6477;
+  background: #752323;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
@@ -991,7 +1034,7 @@ a.learn:hover, a.keep-playing-button:hover, a.learn-low:hover {
   cursor: pointer;
   display: block;
   text-align: center;
-  float: right; 
+  float: right;
   margin-top: 7px;
 }
 
